@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jose Ignacio Lopez">
+    <meta name="description" content="panadería Cocu, boulangerie">
+    <meta name="keywords" content="cocu, panaderia, boulangerie, breakfast, meriendas, desayunos">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6f9210d053.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cocu Boulangerie</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <section class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/cocu_logo-450.png" alt="logo panaderia cocu" width="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slider_201603_lemonpie.jpg" class="d-block w-100" alt="lemon pie">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider_201603_painchoco.jpg" class="d-block w-100" alt="medialunas">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider_201603_sandwich.jpg" class="d-block w-100" alt="sandwich">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <section class="container text-center">
+        <article class="jumbotron bg-white">
+            <h1 class="display-4">Nosotros</h1>
+            <p class="lead mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, deserunt repudiandae
+                minima nobis magni, voluptatum odio nam nemo eveniet sapiente accusantium illo quo est laboriosam natus
+                assumenda repellat fugit corrupti voluptate velit? Ipsam officia dolore pariatur quis rem fugit enim
+                error illum! A sequi qui ut dolorem odio et distinctio?</p>
+            <div class="row shadow p-3 bg-white rounded">
+                <div class="col-sm-12 col-md-4">
+                    <i class="far fa-thumbs-up fa-3x text-dark"></i>
+                    <p class="lead">Atención al cliente</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias dolorum inventore officiis
+                        nobis? Nostrum aperiam ipsa consectetur sint provident?</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <i class="fas fa-shopping-basket fa-3x text-dark"></i>
+                    <p class="lead">Productos frescos todos los días</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias dolorum inventore officiis
+                        nobis? Nostrum aperiam ipsa consectetur sint provident?</p>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <i class="fas fa-utensils fa-3x text-dark"></i>
+                    <p class="lead">Servicios de calidad</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias dolorum inventore officiis
+                        nobis? Nostrum aperiam ipsa consectetur sint provident?</p>
+                </div>
+            </article>
+        </div>
+        <article>  
+            <h1 class="display-4 text-center">Probá nuestros sabores</h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 mb-3">
+                    <img src="img/panyfactura.png" alt="pan y facturas" class="w-100 efecto-img">
+                </div>
+                <div class="col-sm-12 col-md-4 mb-3">
+                    <img src="img/dulce.png" alt="pan dulce" class="w-100 efecto-img">
+                </div>
+                <div class="col-sm-12 col-md-4 mb-3">
+                    <img src="img/salado.png" alt="sandwiches" class="w-100 efecto-img">
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <footer class="bg-dark py-4 mt-4">
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 text-center"><img src="img/cocu_logo-450.png" alt="logo cocu" height="85"
+                        width="100"></div>
+                <div class="col-sm-12 col-md-4">
+                    <h6 class="text-light mb-3">Encontranos en:</h6>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.10492659158!2d-65.20936748545084!3d-26.83661479649732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1587161476258!5m2!1ses!2sar"
+                        height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0" class="w-100"></iframe>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h6 class="text-light mb-4">Horarios de atención:</h6>
+                    <p class="text-light">Lunes a Viernes: 09hs-20hs
+                        <br>
+                        Sábados, Domingos y Feriados: 10hs-20hs
+                    </p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- librerías bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

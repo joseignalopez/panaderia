@@ -1,0 +1,20 @@
+.efecto-img{
+    transition: all .3s ease-in-out;
+}
+.efecto-img:hover{
+    filter: opacity(85%)!important;
+}
+
+.card-body{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    width: 100%;
+}
+
+.card-body button{
+    align-self: flex-end;
+}
